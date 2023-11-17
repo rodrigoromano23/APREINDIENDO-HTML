@@ -8,23 +8,39 @@
     <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
-    <hr><h1>Aprendiendo html</h1><!--sol ose escribe uno por documento HTML-->
+    <ul>
+        <li><a href="repasando.html#Encabezados">Tipos de encabezados</a></li>
+        <li><a href="repasando.html#Etiquetas">Etiquetas</a></li>
+        <li><a href="repasando.html#Etiquetas de bloque">Etiquetas de bloque</a></li>
+        <li><a href="repasando.html#Imagenes">Imagenes</a></li>
+        <li><a href="repasando.html#Figuras">Figuras</a></li>
+        <li><a href="repasando.html#Listas">Listas</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    
+    <h1 id="inicio">Aprendiendo html</h1><!--sol ose escribe uno por documento HTML-->
     <hr><p>Escribiendo mis primeros documentos html</p>
-    <hr><p>Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O, <hr><mark>Texto resaltado</mark>, <small>Letras pequeñas</small> </p>
+    <p>Palabras en: <b>Negrita</b>, <i>Cursiva</i>, <u>Subrayado</u>, e=mc<sup>2</sup>, H<sub>2</sub>O, <mark>Texto resaltado</mark>, <small>Letras pequeñas</small> </p>
     <p>
-        <hr><strong>Este texto es importante</strong>,
-        <hr><em>Este texto hace énfasis</em>
+        <strong>Este texto es importante</strong>,
+        <em>Este texto hace énfasis</em>
 
     </p>
-    <hr><p>
+    <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ratione placeat corrupti temporibus qui aperiam fugiat doloribus debitis eum quisquam ad distinctio.<br> adipisci voluptatibus unde quibusdam, ab rem at <br><br> consequuntur!
     </p>
-    <hr><blockquote>Sólo se que no se nada</blockquote>
-    <hr><cite>Sócrate</cite>
+    <blockquote>Sólo se que no se nada</blockquote>
+    <cite>Sócrates</cite>
+    <hr><h2 id="Encabezados">Encabezados</h2>
     <h2>Encabezado de nivel 2</h2><!--este se usa para subtitulos-->
     <h3>Encabezado nivel 3</h3>
+    <h4>Encabezado nivel 4</h4>
+    <h5>Encabezado nivel 5</h5>
+    <h6>Encabezado nivel 6</h6>
     <pre>
-        <p>Tarea por hacer:
+    <a href="repasando.html#inicio">regresar</a>
+        <hr><p>Tarea por hacer:
           En el curso:
             -No Faltar a clase.
             -Repasar la teoria.
@@ -33,7 +49,7 @@
             -Cortas el pasto.
             -Hacer las compras.
             -Pagar las cuentas.
-         <hr><code>Este texto esta en formato de codigo</code>
+        <code>Este texto esta en formato de codigo</code>
         </p>
     </pre>
     <pre>
@@ -44,12 +60,9 @@
             }
         </code>
     </pre>
-    <hr><h4>Encabezado nivel 4</h4>
-    
-    <h5>Encabezado nivel 5</h5>
-    <h6>Encabezado nivel 6</h6>
+    <a href="repasando.html#inicio">regresar</a>
     <hr>
-    <h2>ETIQUETAS semanticas estructurales</h2>
+    <h2 id="Etiquetas">Etiquetas Semanticas Estructurales</h2>
     <div style="background-color:aquamarine">DIV: Es una etiqueta contenedora que no tiene semantica</div>
     <header style="background-color:aquamarine">HEADER: cabecera de un sitio web o una seccion</header>
     <main style="background-color:aquamarine">MAIN: define la seccion principal del document, solo puede existir una por documento</main>
@@ -59,44 +72,51 @@
     <aside  style="background-color:aquamarine">ASIDE: representa contenido complementario o secundario</aside>
     <section style="background-color:aquamarine">SECTION: representa una seccion de contenido generico</section>
     <address style="background-color:aquamarine">style="background-color:aquamarine" ADDRESS: representa una direccion fisica</address>
+    <br><br>
+    <a href="repasando.html#inicio">regresar</a>
     <hr>
-    <h2>Etiqueta de bloque VS Etiqueta de linea</h2>
+    <h2 id="Etiquetas de bloque">Etiqueta de bloque VS Etiqueta de linea</h2>
     <div style="background-color:aquamarine">La etiqueta de bloque por exelencia es la DIV</div>
     <span style="background-color:brown;">La etiqueta de la linea por exelencia es la SPAN</span>
     <span>Hola, soy  otra SPAN</span>
 <script>
     console.log("hola, estamos escribiendo en html");
-    
+   
 </script>
 <script src="JS/codigo.js"></script>
 <hr>
-<h2>Imagenes</h2>
+<h2 id="Imagenes">Imagenes</h2>
 <img src="IMG/IMG2.jpg" alt="Tabla">
 <img src="IMG/IMG3.jpg" alt="wallpapers">
 <img src="IMG/IMG4.jpg" alt="FILLC">
 <img src="IMG/IMG6.jpg" alt="SIX">
+<a href="repasando.html#inicio">regresar</a>
 <hr>
-<h2>Figuras</h2>
+<h2 id="Figuras">Figuras</h2>
 <figure>
     <img src="IMG/IMG8.jpg" alt="FIXTURY">
     <figcaption>FIXTURY</figcaption>
 </figure>
+<a href="repasando.html#inicio">regresar</a>
 <hr>
-<h2>Lista ordenadas</h2>
+<h2 id="Listas">Listas ordenadas</h2>
 <h3>Estaciones del año</h3>
 <ol>
-    <li>primavera</li>
-    <li>verano</li>
-    <li>otoño</li>
-    <li>invierno</li>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
 </ol>
 <ol start="7">
-    <li>primavera</li>
-    <li>verano</li>
-    <li>otoño</li>
-    <li>invierno</li>
+    <li>Primavera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
 </ol>
-
-<a href="repasando2.html">ir al archivo nuevo</a>
+<a href="repasando.html#inicio">regresar</a>
+<hr><br><a href="https://es.dragon-ball-official.com/" target="_blank"rel="nofollow">Visita mi sitio web</a>
+<br><a href="repasando2.html">Ir al archivo nuevo</a>
+<br><br>
+<a href="https://www.whatsapp.com/?lang=es_LA"target="_blank"><img src="IMG/580b57fcd9996e24bc43c543.png" alt="Esta imagen abre mi whatsapp" width="50" height="50"></a>
 </body>
 </html>
