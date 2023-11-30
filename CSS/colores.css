@@ -1,0 +1,25 @@
+.colores {
+    color: black;
+    
+}
+
+h1 {
+    background-color: #CDF5FD;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+.estilo30 {
+    background-color: #C2D9FF;
+}
+
+h2 {
+    background-color: #CDF5FD;
+    display: inline-block;
+    background-color: #CDF5FD;
+    display: block;
+}

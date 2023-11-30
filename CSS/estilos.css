@@ -19,3 +19,23 @@ a{
 li{
     list-style-type: none;
 }
+h3 {
+    color: brown;
+    font-size: 20px;
+}
+
+.estilo1 {
+    color: rgb(255, 99, 71);
+    font-size: 20px;
+    font-size: 40px;
+}
+.estilo3 {
+    color:tomato;
+    font-size: 30px;
+    font-size: 60px ;
+ }
+.estilo1 {
+    color:tomato;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+ }

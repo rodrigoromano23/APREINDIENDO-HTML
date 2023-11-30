@@ -6,6 +6,7 @@
     <meta name="description" content="aprendiendo y repasando html">
     <title>RepasandoHTML</title>
     <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="CSS/colores.css">
 </head>
 <body>
     <ul>
@@ -19,6 +20,7 @@
         <li><a href="repasando.html#Audio-Video">Audio y Video</a></li>
         <li><a href="repasando.html#Iframe">Iframe</a></li>
         <li><a href="repasando.html#Formularios">Formularios</a></li>
+        <li><a href="index.html#bloques y lineas">bloques y lineas</a></li>
     </ul>
     
     <h1 id="inicio">Aprendiendo html</h1><!--sol ose escribe uno por documento HTML-->
@@ -29,7 +31,7 @@
         <em>Este texto hace énfasis</em>
 
     </p>
-    <p>
+    <p class="estilo30">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Ratione placeat corrupti temporibus qui aperiam fugiat doloribus debitis eum quisquam ad distinctio.<br> adipisci voluptatibus unde quibusdam, ab rem at <br><br> consequuntur!
     </p>
     <blockquote>Sólo se que no se nada</blockquote>
@@ -65,7 +67,7 @@
     <a href="index.html#inicio">regresar</a>
     <hr>
     <h2 id="Etiquetas">Etiquetas Semanticas Estructurales</h2>
-    <div style="background-color:aquamarine">DIV: Es una etiqueta contenedora que no tiene semantica</div>
+    <div style="background-color:tomato">DIV: Es una etiqueta contenedora que no tiene semantica</div>
     <header style="background-color:aquamarine">HEADER: cabecera de un sitio web o una seccion</header>
     <main style="background-color:aquamarine">MAIN: define la seccion principal del document, solo puede existir una por documento</main>
     <footer style="background-color:aquamarine">FOOTER: pié de pagina de una sitio web o una seccion</footer>
@@ -73,7 +75,7 @@
     <article style="background-color:aquamarine">ARTICLE: representa una seccion de autocontenido (que por si sola se explica) </article>
     <aside  style="background-color:aquamarine">ASIDE: representa contenido complementario o secundario</aside>
     <section style="background-color:aquamarine">SECTION: representa una seccion de contenido generico</section>
-    <address style="background-color:aquamarine">style="background-color:aquamarine" ADDRESS: representa una direccion fisica</address>
+    <address style="background-color:tomato">style="background-color:aquamarine" ADDRESS: representa una direccion fisica</address>
     <br><br>
     <a href="index.html#inicio">regresar</a>
     <hr>
@@ -87,7 +89,7 @@
 </script>
 <script src="JS/codigo.js"></script>
 <hr>
-<h2 id="Imagenes">Imagenes</h2>
+<h2 class="estilo3" id="Imagenes">Imagenes</h2>
 <img src="IMG/IMG2.jpg" alt="Tabla">
 <img src="IMG/IMG3.jpg" alt="wallpapers">
 <img src="IMG/IMG4.jpg" alt="FILLC">
@@ -131,12 +133,12 @@
     <summary>Titulo de acordeon</summary>
     <article>
         <h3>Contenido de acordeon</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium beatae fuga vero eveniet! Doloremque soluta cupiditate repellendus harum fugiat pariatur earum iusto minima, quo cumque quibusdam repellat incidunt nisi!</p>
+        <p class="colores">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima praesentium beatae fuga vero eveniet! Doloremque soluta cupiditate repellendus harum fugiat pariatur earum iusto minima, quo cumque quibusdam repellat incidunt nisi!</p>
         <img src="IMG/IMG9.jpg" alt="GOKÚ">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam perferendis possimus modi voluptatum quisquam eaque ducimus alias in consequuntur fugit dicta culpa, voluptatem vitae. Commodi ea cum tempore eaque maxime.</p>
     </article>
 </details>
-<h2 id="Audio-Video">Audio y Video</h2>
+<h2 class="estilo1" id="Audio-Video">Audio y Video</h2>
 <audio src="MEDIA/y2mate.com - Ke Personajes Ft  Onda Sabanera  Pobre Corazón.mp3" controls></audio><br>
 <video src="MEDIA/y2mate.com - THE MARVELS Tráiler Español Latino Nuevo 2023_720p.mp4" controls preload="auto" poster="IMG/IMG10.jpg" width="70%"></video><br>
 <a href="repasando.html#inicio">regresar</a>
@@ -144,7 +146,7 @@
 <iframe src="https://refrielectriclasose.files.wordpress.com/2016/05/manual-de-reparacion-de-refrigeradores.pdf" frameborder="1" width="50%" height="500px"></iframe><br><br>
 <a href="index.html#inicio">regresar</a>
 <h2 id="Fomularios">Formularios</h2>
-<h3>Elementos de Formularios</h3>
+<h3 class="estilo1">Elementos de Formularios</h3>
 <input type="text"><br>
 <input type="checkbok"><br>
 <input type="radio"><br>
@@ -173,7 +175,7 @@
     <OPtion value="">CSS</OPtion>
     <option value="">JS</option>
 </select>
-<h2 id="Atributos de formularios">Atributos de Formularios</h2>
+<h2 class="estilo1" id="Atributos de formularios">Atributos de Formularios</h2>
 <input type="text" value="Rodrigo" readonly>
 <input type="text" value="Rodrigo" disabled><br>
 <input type="text" placeholder="Escribe tu nombre"><br>
@@ -192,5 +194,13 @@
     <textarea name="comentarios" cols="30" rows="10" required></textarea><br>
     <input type="submit">
 </form>
+<a href="index.html#inicio">regresar</a>
+<h2 id="bloques y lineas">bloques y lineas</h2>
+<div>
+    <a href="#">Enlace1</a>
+    <a href="#">Enlace2</a>
+    <a href="#">Enlace3</a>
+    <a href="#">Enlace4</a>
+</div>
 <a href="index.html#inicio">regresar</a>
 </html>
