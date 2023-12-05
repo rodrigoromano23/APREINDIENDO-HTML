@@ -39,3 +39,31 @@ h3 {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
  }
+
+
+.estilos5 {
+    background-color: brown;
+    display: inline-block;
+}
+button {
+    background: #FFAD84;
+    color: #BED754;
+}
+nav {
+    background: #BED754;
+    padding: 20px;
+}
+.columnas {
+    background: #B99470;
+    color: #362015;
+    padding: 15px;
+    width: 25%;
+    margin: 10px;
+}
+.Contenedor-padre {
+    display: flex;
+}
+body {
+    background-image:url();
+    color: #FFFFFF;
+}

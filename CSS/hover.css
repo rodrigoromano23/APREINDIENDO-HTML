@@ -1,0 +1,12 @@
+button {
+    background: #FFAD84;
+    color: #BED754;
+}
+button:hover {
+  background: #3081D0;
+}
+
+button:active {
+    background: #7B66FF;
+    color: #BED754;
+}
